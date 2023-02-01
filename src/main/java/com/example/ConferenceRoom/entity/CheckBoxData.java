@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class CheckBox {
+public class CheckBoxData {
 
 
     @Id
