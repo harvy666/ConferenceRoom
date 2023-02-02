@@ -27,6 +27,17 @@
 <label for="room4">Room 4</label>
 <input type="checkbox" id="room4" name="room4" checked><br>
 
+<!-- TODO Testing ModelAndView method, remove table later,now to add the data Model to Javascript-->
+<table>
+    <tbody>
+    <tr th:each="room : ${data}">
+        <td th:text="${room.id}"></td>
+        <td th:text="${room.label}"></td>
+        <td th:text="${room.checked}"></td>
+    </tr>
+    </tbody>
+</table>
+
 
 </body>
 </html>

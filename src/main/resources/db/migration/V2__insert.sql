@@ -1,2 +1,2 @@
-insert into rooms (label,checked) values ('room1',true);
+insert into check_box_data (label,checked) values ('room1',true);
 
